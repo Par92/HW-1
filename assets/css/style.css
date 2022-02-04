@@ -63,15 +63,19 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+main {
+    display: flex;
+}
 section {
     float: left;
 }
 aside {
+    margin-top: 20px;
     margin-right: 10px;
     padding: 20px;
     clear: both;
     float: right;
-    width: 25%;
+    width: 33%;
     height: 10%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -110,10 +114,8 @@ footer h4 {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.info {
+    display: block
 }
 /* Changed the color to match other text */
 
@@ -140,9 +142,10 @@ footer h4 {
 
 /* made them one class "products". made one margin*/
 .products {
+    display: flex;
     margin: 20px;
     padding: 50px;
-    height: 300px;
+   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
